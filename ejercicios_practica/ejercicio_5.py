@@ -24,4 +24,10 @@ sumatoria = 0  # Inicializo el contador en 0
 
 # Imprimir el valor de la sumatoria
 
+for valor in range (inicio,(fin + 1)):
+    sumatoria = sumatoria + valor
+    print('el valor de sumatoria:', sumatoria)
+
+
+
 print("terminamos!")
